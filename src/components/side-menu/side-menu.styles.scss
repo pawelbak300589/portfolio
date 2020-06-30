@@ -1,0 +1,105 @@
+#sideMenu {
+    background: #212121;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+    min-height: 500px;
+
+    .logo {
+        position: relative;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 50px;
+        padding: 8px 8px 20px;
+        line-height: 1;
+        color: #b82967;
+        background: #424242;
+
+        span {
+            position: absolute;
+            bottom: 7px;
+            left: 11px;
+            color: white;
+            font-size: 10.5px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+
+        a {
+            font-size: 20px;
+            color: #909096;
+            margin-bottom: 15px;
+            display: block;
+            line-height: 51px;
+            height: 51px;
+            position: relative;
+            text-decoration: none;
+
+            svg {
+                opacity: 1;
+                -webkit-transition: all .3s ease-out;
+                transition: all .3s ease-out;
+            }
+
+            &:after {
+                content: '';
+                font-size: 11px;
+                letter-spacing: 2px;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-align: center;
+                opacity: 0;
+                -webkit-transition: all .3s ease-out;
+                transition: all .3s ease-out;
+            }
+
+            &:first-child {
+
+                &:after {
+                    content: 'HOME';
+                }
+
+                & + a:after {
+                    content: 'ABOUT';
+                }
+
+                & + a + a:after {
+                    content: 'SKILLS';
+                }
+
+                & + a + a + a:after {
+                    content: 'PORTFOLIO';
+                }
+
+                & + a + a + a + a:after {
+                    content: 'CONTACT';
+                }
+            }
+
+            &:hover {
+                color: white;
+                background: #383838;
+
+                &:after {
+                    opacity: 1;
+                }
+
+                svg {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
