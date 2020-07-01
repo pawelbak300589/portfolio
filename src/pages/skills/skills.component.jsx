@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Content from "../../components/content/content.component";
+
 const SkillsPage = () => {
     return (
-        <div className="skills-page">
+        <Content className="skills-page">
             SkillsPage
-        </div>
+        </Content>
     );
 };
 

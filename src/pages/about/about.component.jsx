@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Content from "../../components/content/content.component";
+
 const AboutPage = () => {
     return (
-        <div className="about-page">
+        <Content className="about-page">
             AboutPage
-        </div>
+        </Content>
     );
 };
 

@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Content from "../../components/content/content.component";
+
 const PortfolioPage = () => {
     return (
-        <div className="portfolio-page">
+        <Content className="portfolio-page">
             PortfolioPage
-        </div>
+        </Content>
     );
 };
 
