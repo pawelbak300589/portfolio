@@ -1,0 +1,14 @@
+@import "../../colours";
+
+.under-construction {
+    text-align: center;
+    color: $primary-color;
+    //color: $secondary-color;
+
+    svg {
+        font-size: 600%;
+        color: white;
+        //color: $primary-color;
+        margin-bottom: 30px;
+    }
+}
