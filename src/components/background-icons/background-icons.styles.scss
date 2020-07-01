@@ -1,0 +1,9 @@
+.home-background {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: calc(100vw - 80px);
+    height: 100%;
+    color: white;
+    z-index: -1;
+}
