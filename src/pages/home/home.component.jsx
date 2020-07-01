@@ -47,7 +47,7 @@ const HomePage = () => {
                         delay: 2
                     }}>
                     <small>PHP Developer / React & JavaScript Developer</small><br />
-                    <CustomButton type="link" to="/contact" style={{display: "inline-block", marginTop: "15px"}}>Contact Me</CustomButton>
+                    <CustomButton type="link" to="/contact" style={{display: "inline-block", marginTop: "18px"}} className={["primary"]}>Contact Me</CustomButton>
                 </motion.p>
             </section>
         </Content>

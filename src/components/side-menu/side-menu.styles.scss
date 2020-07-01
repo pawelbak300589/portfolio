@@ -1,3 +1,5 @@
+@import "../../colours";
+
 #sideMenu {
     background: #212121;
     width: 80px;
@@ -17,16 +19,16 @@
         font-size: 50px;
         padding: 8px 8px 25px;
         line-height: 1;
-        color: #b82967;
+        color: $primary-color;
         background: #424242;
 
         span {
             &:first-child {
-                color: #b82967;
+                color: $primary-color;
             }
 
             &:nth-child(2) {
-                color: #29b87a;
+                color: $secondary-color;
             }
         }
 

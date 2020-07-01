@@ -23,9 +23,9 @@ const SideMenu = () => {
             </nav>
             <ul className="social-media">
                 <li><a href="https://www.linkedin.com/in/pawel-bak-0b4236b6/"
-                       target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                       target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                 <li><a href="https://www.facebook.com/pawel.bak.llamateurs"
-                       target="_blank"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
+                       target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
             </ul>
         </div>
     );

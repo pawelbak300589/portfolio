@@ -1,9 +1,39 @@
+@import "../../colours";
+
 .custom-button {
-    padding: 5px 20px;
-    color: #b82967;
-    background-color: #2b2b2b;
+    padding: 8px 20px;
+    color: white;
+    background-color: $bg-color;
     text-decoration: none;
-    border-radius: 3px;
-    border: 2px solid #b82967;
+    border: 2px solid white;
     font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $bg-color;
+        background-color: white;
+        border-color: white;
+    }
+
+    &.primary {
+        color: $primary-color;
+        border-color: $primary-color;
+
+        &:hover {
+            color: $bg-color;
+            background-color: $primary-color;
+            border-color: $primary-color;
+        }
+    }
+
+    &.secondary {
+        color: $secondary-color;
+        border-color: $secondary-color;
+
+        &:hover {
+            color: $bg-color;
+            background-color: $secondary-color;
+            border-color: $secondary-color;
+        }
+    }
 }
