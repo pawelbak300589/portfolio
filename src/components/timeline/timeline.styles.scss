@@ -1,0 +1,28 @@
+@import "../../colours";
+
+.timeline {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+
+    .period {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #383838;
+        border: 1px solid $bg-color;
+        min-width: 50px;
+
+        .year {
+            text-align: center;
+        }
+
+        .flag {
+            width: 100%;
+            border: 1px solid $bg-color;
+            border-left: none;
+            border-right: none;
+        }
+    }
+}

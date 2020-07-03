@@ -1,16 +1,18 @@
-section {
-    text-align: center;
+.home-page {
+    section {
+        text-align: center;
 
-    h1 {
-        font-size: 2em;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-    }
+        h1 {
+            font-size: 2em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+        }
 
-    p {
-        small {
-            color: #999999;
-            letter-spacing: 1.5px;
+        p {
+            small {
+                color: #999999;
+                letter-spacing: 1.5px;
+            }
         }
     }
 }
