@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faUser, faCogs, faEye, faEnvelope, } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faFacebookSquare, faGithub, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 import './side-menu.styles.scss';
 
@@ -24,8 +24,8 @@ const SideMenu = () => {
             <ul className="social-media">
                 <li><a href="https://www.linkedin.com/in/pawel-bak-0b4236b6/"
                        target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                <li><a href="https://www.facebook.com/pawel.bak.llamateurs"
-                       target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
+                <li><a href="https://github.com/pawelbak300589"
+                       target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithubSquare} /></a></li>
             </ul>
         </div>
     );

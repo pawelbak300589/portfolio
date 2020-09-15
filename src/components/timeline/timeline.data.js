@@ -29,10 +29,9 @@ export const timelineData = [
         colour: techschool,
         image: school_logo,
         title: 'Studying for IT Technician',
-        subtitle: 'at SECONDARY TECHNICAL SCHOOL',
+        subtitle: 'at SECONDARY TECHNICAL SCHOOL (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            'In 2005 I started my journey with IT.',
         ],
     },
     {
@@ -41,10 +40,9 @@ export const timelineData = [
         colour: techschool,
         image: school_logo,
         title: 'Studying for IT Technician',
-        subtitle: 'at SECONDARY TECHNICAL SCHOOL',
+        subtitle: 'at SECONDARY TECHNICAL SCHOOL (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            'Learning in process...',
         ],
     },
     {
@@ -53,10 +51,9 @@ export const timelineData = [
         colour: techschool,
         image: school_logo,
         title: 'Studying for IT Technician',
-        subtitle: 'at SECONDARY TECHNICAL SCHOOL',
+        subtitle: 'at SECONDARY TECHNICAL SCHOOL (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            '...really hard learning... ;)',
         ],
     },
     {
@@ -65,10 +62,9 @@ export const timelineData = [
         colour: techschool,
         image: school_logo,
         title: 'Studying for IT Technician',
-        subtitle: 'at SECONDARY TECHNICAL SCHOOL',
+        subtitle: 'at SECONDARY TECHNICAL SCHOOL (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            '...still learning here...',
         ],
     },
     {
@@ -79,8 +75,7 @@ export const timelineData = [
         title: 'From IT Technician to IT Engineer',
         subtitle: 'From SECONDARY TECHNICAL SCHOOL to THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            'In 2009 I decided that it is time to go further with my knowledge and I went to University.',
         ],
     },
     {
@@ -89,10 +84,9 @@ export const timelineData = [
         colour: university,
         image: uni_logo,
         title: 'Studying for IT Engineer',
-        subtitle: 'at THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT',
+        subtitle: 'at THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            '...hard University learning...',
         ],
     },
     {
@@ -101,10 +95,9 @@ export const timelineData = [
         colour: university,
         image: uni_logo,
         title: 'Studying for IT Engineer',
-        subtitle: 'at THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT',
+        subtitle: 'at THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            '...a little more IT...',
         ],
     },
     {
@@ -113,10 +106,9 @@ export const timelineData = [
         colour: university,
         image: uni_logo,
         title: 'Studying for IT Engineer',
-        subtitle: 'at THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT',
+        subtitle: 'at THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT (Poland)',
         text: [
-            'Lorem ipsum...',
-            '...dolor sit amet...',
+            'You would not guess... still learning ;)',
         ],
     },
     {
@@ -127,7 +119,7 @@ export const timelineData = [
         title: 'From IT Engineer to Junior PHP Developer',
         subtitle: 'From THE UNIVERSITY OF INFORMATION TECHNOLOGY AND MANAGEMENT to PROFIT AGNIESZKA WALENDZIK',
         text: [
-            'In 2015 I decided to move from Poland to UK and then I started to work in Good Call Consultants',
+            'After University, I started my first work as Junior Developer at PROFIT.',
         ],
     },
     {
@@ -136,7 +128,7 @@ export const timelineData = [
         colour: profit,
         image: profit_logo,
         title: 'Working as Junior PHP Developer',
-        subtitle: 'at PROFIT AGNIESZKA WALENDZIK',
+        subtitle: 'at PROFIT AGNIESZKA WALENDZIK (Poland)',
         text: [
             [
                 'Learned from scratch new PHP frameworks: Kohana HMVC & Codeigniter.',
@@ -164,7 +156,7 @@ export const timelineData = [
         colour: goodcall,
         image: goodcall_logo,
         title: 'Working as Web Developer',
-        subtitle: 'at GOOD CALL INTERNET MARKETING CONSULTANTS',
+        subtitle: 'at GOOD CALL INTERNET MARKETING CONSULTANTS (Chester, UK)',
         text: [
             [
                 'Created, tested and maintained WordPress-based websites for various clients.',
@@ -182,7 +174,7 @@ export const timelineData = [
         colour: goodcall,
         image: goodcall_logo,
         title: 'Working as Web Developer',
-        subtitle: 'at GOOD CALL INTERNET MARKETING CONSULTANTS',
+        subtitle: 'at GOOD CALL INTERNET MARKETING CONSULTANTS (Chester, UK)',
         text: [
             [
                 'Created, tested and maintained WordPress-based websites for various clients.',
@@ -211,7 +203,7 @@ export const timelineData = [
         colour: staveley,
         image: staveley_logo,
         title: 'Working as Web Developer',
-        subtitle: 'at STAVELEY HEAD',
+        subtitle: "at STAVELEY HEAD (Connah's Quay, UK)",
         text: [
             [
                 'Developed, tested and maintained new features for company’s internal websites.',
@@ -228,7 +220,7 @@ export const timelineData = [
         colour: staveley,
         image: staveley_logo,
         title: 'Working as Web Developer',
-        subtitle: 'at STAVELEY HEAD',
+        subtitle: "at STAVELEY HEAD (Connah's Quay, UK)",
         text: [
             [
                 'Developed, tested and maintained new features for company’s internal websites.',

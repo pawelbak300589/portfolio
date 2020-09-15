@@ -69,7 +69,7 @@ const HomePage = () => {
                         duration: 1,
                         delay: 2
                     }}>
-                    <small>PHP Developer / React & JavaScript Developer</small><br />
+                    <small>ReactJS / NodeJS / JavaScript / PHP</small><br />
                     <CustomButton type="link"
                                   to="/contact"
                                   style={{ display: "inline-block", marginTop: "18px" }}
