@@ -9,7 +9,8 @@
     font-weight: 600;
     text-transform: uppercase;
 
-    &:hover {
+    &:hover,
+    &.active {
         color: $bg-color;
         background-color: white;
         border-color: white;
@@ -19,7 +20,8 @@
         color: $primary-color;
         border-color: $primary-color;
 
-        &:hover {
+        &:hover,
+        &.active {
             color: $bg-color;
             background-color: $primary-color;
             border-color: $primary-color;
@@ -30,7 +32,8 @@
         color: $secondary-color;
         border-color: $secondary-color;
 
-        &:hover {
+        &:hover,
+        &.active {
             color: $bg-color;
             background-color: $secondary-color;
             border-color: $secondary-color;

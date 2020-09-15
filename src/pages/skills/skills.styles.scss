@@ -1,0 +1,42 @@
+@import "../../colours";
+
+.skills-page {
+
+    section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+        flex-direction: column;
+
+        article {
+            flex-grow: 1;
+            padding: 0 5%;
+            text-align: center;
+
+            h1 {
+                font-size: 2em;
+                margin-block-start: 0.67em;
+                margin-block-end: 0.67em;
+                color: $secondary-color;
+            }
+
+            h2 {
+                font-size: 1em;
+                color: #888888;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+        }
+
+        aside {
+            flex-grow: 1;
+            padding: 0 5%;
+            text-align: center;
+
+            .col {
+                flex: 1 1 0;
+            }
+        }
+    }
+}

@@ -210,7 +210,7 @@ export const timelineData = [
                 'Refactored and tested old code for company’s internal websites.',
                 'Took part in researching and developing new quote calculation system.',
                 'Partly worked as a support consultant (JIRA) for internal broker management system.',
-                'Learned from scratch new PHP framework: Phalcon.'
+                'Learned from scratch new technologies: Phalcon (PHP FW), ReactJS, NodeJS (with Express.js).'
             ]
         ],
     },
@@ -227,7 +227,7 @@ export const timelineData = [
                 'Refactored and tested old code for company’s internal websites.',
                 'Took part in researching and developing new quote calculation system.',
                 'Partly worked as a support consultant (JIRA) for internal broker management system.',
-                'Learned from scratch new PHP framework: Phalcon.'
+                'Learned from scratch new technologies: Phalcon (PHP FW), ReactJS, NodeJS (with Express.js).'
             ]
         ],
     }

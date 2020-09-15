@@ -1,0 +1,26 @@
+@import "../../colours";
+
+.skill {
+    display: flex;
+    //border: 2px solid #424242;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: auto;
+
+    .blocks {
+        display: flex;
+        width: 200px;
+        margin-right: 5px;
+
+        span {
+            height: 20px;
+            width: 25%;
+            background-color: #6f6f6f;
+            border: 1px solid $bg-color;
+
+            &.active {
+                background-color: $primary-color;
+            }
+        }
+    }
+}
