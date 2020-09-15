@@ -20,6 +20,11 @@ const AboutPage = () => {
         return subtitle ? subtitle : '';
     };
 
+    const variants = {
+        hidden: { opacity: 0, scale: 0 },
+        visible: { opacity: 1, scale: 1 },
+    };
+
     const renderText = () => {
         const initialText = [
             'An energetic, imaginative and fast learning Web Developer with over six years of experience in creating and developing websites at the highest standards and over sixteen years around matters of Information Technology.',
@@ -55,16 +60,27 @@ const AboutPage = () => {
             <section>
                 <Timeline onHover={(periodData) => setTimelinePeriodData(periodData)} />
                 <motion.article
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}>
+                    initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    transition={{
+                        ease: "easeInOut",
+                        duration: 1,
+                    }}>
                     <h1>{renderTitle()}</h1>
                     {subtitle && <h2>{renderSubtitle()}</h2>}
                     {renderText()}
                 </motion.article>
-                <aside>
+                <motion.aside
+                    initial="hidden"
+                    animate="visible"
+                    variants={variants}
+                    transition={{
+                        ease: "easeInOut",
+                        duration: 1,
+                    }}>
                     {renderImage()}
-                </aside>
+                </motion.aside>
             </section>
         </Content>
     );

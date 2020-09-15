@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import {
     faJsSquare,
     faReact,
+    faNode,
     faPhp,
     faCss3Alt,
     faSass,
     faHtml5,
     faGitAlt,
-    faLaravel,
     faDocker
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -26,11 +26,11 @@ const HomePage = () => {
     const icons = [
         { icon: faJsSquare, position: "5%", size: "5vw", duration: 15 },
         { icon: faReact, position: "15%", size: "5vw", duration: 20 },
-        { icon: faPhp, position: "25%", size: "5vw", duration: 18 },
+        { icon: faNode, position: "25%", size: "5vw", duration: 18 },
         { icon: faCss3Alt, position: "35%", size: "5vw", duration: 28 },
         { icon: faSass, position: "45%", size: "5vw", duration: 25 },
         { icon: faHtml5, position: "55%", size: "5vw", duration: 14 },
-        { icon: faLaravel, position: "65%", size: "5vw", duration: 21 },
+        { icon: faPhp, position: "65%", size: "5vw", duration: 21 },
         { icon: faDocker, position: "75%", size: "5vw", duration: 18 },
         { icon: faGitAlt, position: "85%", size: "5vw", duration: 22 },
     ];
